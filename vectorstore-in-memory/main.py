@@ -1,7 +1,7 @@
 # to chat with the pdf document
 
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'your_openai_api_key'
 
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import CharacterTextSplitter
